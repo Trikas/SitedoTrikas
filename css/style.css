@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    background-color: #f7f7f7;
+}
+.lado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+}
+.pagina{
+    display: flex;
+    flex-direction: row;
+}
+.perfil{
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 20px #c7c7c7;
+}
+.infos{
+    margin-left: 5%;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    margin-top: 10% ;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 20px #c7c7c7;
+}
+#txt{
+    font-weight: 400;
+}
+#titulo{
+    color: royalblue;
+    font-weight: 600;
+}
+.txt{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 10%;
+    margin-top: 10%; */
+    width: 80%;
+    height: 100%;
+}
+.navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 70%;
+    height: 10%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 20px #c7c7c7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+#trab{
+    margin-left: 20%;
+}
+#cont{
+    margin-right: 30%;
+}
+#trab:hover, #cont:hover{
+    color: royalblue;
+    font-size: 15px;
+    transition: 500ms;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+span{
+    color: royalblue;
+}
+#foto{
+    -webkit-filter: drop-shadow(2px 2px 20px rgb(103, 141, 255)) ;
+    filter: drop-shadow(2px 2px 20px rgb(107, 144, 255)) ;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+/* ////// CONTATO /////// */
+.contact{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#img{
+    margin-left: 4%;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.face{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+/* #insta{
+    margin-bottom: 10%;
+} */
+
+#voltar2{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+#voltar2:hover{
+    color: royalblue;
+    transition: 500ms;
+
+}
+
+/* /////// TRABALHOS ////////// */
+
+#titulo{
+    text-align: center;
+}
+#imgm{
+    width: 300px;
+}
+.jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#voltar{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+#voltar:hover{
+    color: royalblue;
+    transition: 500ms;
+
+}
+#txt1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    height: 40%;
+    font-weight: 600;
+}
+#imgm2{
+    margin-top: 1%;
+    width: 300px;
+}
